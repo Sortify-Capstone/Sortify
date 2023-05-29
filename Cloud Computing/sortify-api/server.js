@@ -25,7 +25,7 @@ const uploadImageHandler = async (request, h) => {
       destination: filename,
     });
     compressImageHandler(bucketName, filename);
-    const imageUrl = `https://storage.googleapis.com/sortify-img/${filename}`;
+    const imageUrl = `https://storage.googleapis.com/${bucketName}/${filename}`;
 
     return imageUrl;
   } catch (error) {
