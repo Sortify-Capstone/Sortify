@@ -4,7 +4,6 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-android:padding="16dp"
 android:background="@color/blue_gray_100"
 tools:context=".ui.clasify.AddClassifyActivity">
 
@@ -20,11 +19,13 @@ tools:context=".ui.clasify.AddClassifyActivity">
     android:id="@+id/story_image"
     android:layout_width="match_parent"
     android:layout_height="420dp"
+    android:padding="16dp"
     android:background="@color/light_gray"
     android:scaleType="fitCenter"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toTopOf="@id/btn_upload"
     tools:srcCompat="@tools:sample/avatars"
     android:contentDescription="@string/content_description_image_story" />
 
@@ -32,14 +33,14 @@ tools:context=".ui.clasify.AddClassifyActivity">
     android:id="@+id/btn_upload"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="16dp"
-    android:background="@color/purple_200"
+    android:layout_margin="16dp"
+    android:background="@color/teal_700"
     android:text="@string/button_text_upload_story"
     android:textAllCaps="false"
-    app:backgroundTint="@color/purple_200"
+    app:backgroundTint="@color/teal_700"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/story_image" />
+    app:layout_constraintBottom_toBottomOf="parent" />
 
 <com.airbnb.lottie.LottieAnimationView
     android:id="@+id/loading"

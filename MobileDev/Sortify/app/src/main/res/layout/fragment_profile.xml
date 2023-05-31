@@ -11,7 +11,7 @@
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/purple_200"
+        android:background="@color/colorAccent"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -97,7 +97,7 @@
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:text="@string/const_text_change_language"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/contentTextColor"
             tools:ignore="RelativeOverlap"
             tools:targetApi="m" />
 
@@ -107,7 +107,7 @@
             android:layout_alignParentEnd="true"
             android:contentDescription="@string/content_description_btn_app_setting"
             android:src="@drawable/ic_baseline_arrow_forward_24"
-            app:tint="@color/purple_700" />
+            app:tint="@color/contentTextColor" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -128,7 +128,7 @@
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:text="@string/const_text_permission"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/contentTextColor"
             tools:ignore="RelativeOverlap" />
 
         <ImageView
@@ -137,32 +137,32 @@
             android:layout_alignParentEnd="true"
             android:contentDescription="@string/content_description_btn_app_setting"
             android:src="@drawable/ic_baseline_arrow_forward_24"
-            app:tint="@color/purple_700" />
+            app:tint="@color/contentTextColor" />
     </RelativeLayout>
 
-    <Button
-        android:id="@+id/btn_logout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="16dp"
-        android:background="@color/light_red"
-        android:text="@string/button_text_logout"
-        android:textAllCaps="false"
-        app:backgroundTint="@null"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_set_permission" />
+<!--    <Button-->
+<!--        android:id="@+id/btn_logout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="16dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:background="@color/teal_700"-->
+<!--        android:text="@string/button_text_logout"-->
+<!--        android:textAllCaps="false"-->
+<!--        app:backgroundTint="@null"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btn_set_permission" />-->
 
-    <TextView
-        android:id="@+id/text_last_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="16dp"
-        android:textSize="12sp"
-        android:textStyle="italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_logout"
-        tools:text="Terakhir login pada 30 April 2022 00.00" />
+<!--    <TextView-->
+<!--        android:id="@+id/text_last_login"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="italic"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btn_logout"-->
+<!--        tools:text="Terakhir login pada 30 April 2022 00.00" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>

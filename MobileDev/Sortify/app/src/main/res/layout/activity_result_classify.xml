@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
     tools:context=".ui.clasify.ResultClassifyActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -19,18 +18,19 @@
         android:id="@+id/story_image"
         android:layout_width="match_parent"
         android:layout_height="420dp"
+        android:layout_margin="16dp"
         android:background="@color/light_gray"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
         tools:srcCompat="@tools:sample/avatars"
         android:contentDescription="@string/content_description_image_story" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card"
         android:layout_width="match_parent"
-        android:layout_height="250"
+        android:layout_height="220dp"
         android:layout_margin="8dp"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="16dp"
