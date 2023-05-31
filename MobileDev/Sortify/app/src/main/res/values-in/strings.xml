@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sortify</string>
+
+    <!-- Title menu xml -->
+    <string name="menu_title_refresh">Refresh</string>
+    <string name="menu_title_blank" >" "</string>
+    <string name="menu_title_bottom_nav_home">Home</string>
+    <string name="menu_title_bottom_nav_profile">Profil</string>
+    <string name="menu_tilte_detail_story">Detail Story</string>
+    <string name="menu_tilte_new_story">Tambah Story Baru</string>
+    <string name="menu_tilte_profile">Profile</string>
+
+    <!-- Content Description layout xml -->
+    <string name="content_description_fab_add_story">Story Baru</string>
+    <string name="content_descrption_btn_gallery">Pilih gambar dari Galeri</string>
+    <string name="content_description_btn_shutter_camera">Ambil Gambar</string>
+    <string name="content_description_btn_switch_camera">Putar arah Kamera</string>
+    <string name="content_description_avatar">Avatar</string>
+    <string name="content_description_image_story">Gambar Story Pengguna</string>
+    <string name="content_description_btn_app_setting">Buka pengaturan terkait</string>
+    <string name="content_description_btn_jump_up">Tombol scroll top</string>
+    <string name="content_description_btn_camera_back">Tombol kembali ke halaman utama</string>
+    <string name="content_description_btn_camera_info">Tombol informasi halaman kamera</string>
+    <string name="content_description_btn_retry">Coba lagi</string>
+    <string name="content_description_icon_maps">Ikon Peta</string>
+
+    <!-- Constant Value text -->
+    <string name="const_uploaded_date">diupload pada 30 April 2022 00.00</string>
+    <string name="const_story_description_hint">Tulis deskripsi disini</string>
+    <string name="const_greetings_auth_page">Selamat Datang di</string>
+    <string name="const_text_auth_question_login">Belum punya akun?</string>
+    <string name="const_text_register">Daftar</string>
+    <string name="const_text_login">Masuk</string>
+    <string name="const_text_auth_question_register">Sudah punya akun?</string>
+    <string name="const_text_name">Nama</string>
+    <string name="const_text_setting">Pengaturan</string>
+    <string name="const_text_change_language">Ubah Bahasa</string>
+    <string name="const_text_permission">Atur Permission Aplikasi</string>
+    <string name="const_text_uploaded">Diunggah</string>
+    <string name="const_text_seconds_ago">detik yang lalu</string>
+    <string name="const_text_minutes_ago">menit yang lalu</string>
+    <string name="const_text_hours_ago">jam yang lalu</string>
+    <string name="const_text_days_ago">hari yang lalu</string>
+    <string name="const_text_time_on">pada</string>
+    <string name="const_text_pandora_box">Kotak Pandora</string>
+    <string name="const_text_adapter_maps_default">Tampilan Default (Negara)</string>
+    <string name="const_text_adapter_maps_province">Sekitar Provinsi Saya</string>
+    <string name="const_text_adapter_maps_city">Sekitar Kota Saya</string>
+    <string name="const_text_adapter_maps_district">Sekitar Kecamatan Saya</string>
+    <string name="const_text_adapter_maps_around">Sekitar Lokasi Saya</string>
+    <string name="const_text_tooltip_view_story">( Klik untuk melihat story )</string>
+    <string name="const_text_tooltip_pin_location">( Klik untuk memilih lokasi )</string>
+
+    <!-- Button text layout xml -->
+    <string name="button_text_ok">ok</string>
+    <string name="button_text_upload_story">Unggah Story</string>
+    <string name="button_text_signin">Masuk</string>
+    <string name="button_text_signup">Daftar</string>
+    <string name="button_text_logout">Keluar</string>
+
+    <!-- API Error & Response Code -->
+    <string name="API_success_upload_image">Yeay 😘, Gambar berhasil diupload</string>
+    <string name="API_error_unauthorized">Alamat Email tidak terdaftar / Email atau Kata sandi salah</string>
+    <string name="API_error_email_invalid">Format Email tidak valid</string>
+    <string name="API_error_header_token">Kamu tidak memiliki akses, silahkan login ulang untuk renewal Token</string>
+    <string name="API_error_large_payload">Gambar kamu melebihi batas maks 1 MB, silahkan pilih gambar lain</string>
+    <string name="API_error_send_payload">Eror ketika mengirim gambar</string>
+    <string name="API_error_fetch_data">Eror memuat data</string>
+
+    <!-- UI Error -->
+    <string name="UI_validation_empty_story_description">Deskripsi konten harus diisi</string>
+    <string name="UI_validation_empty_email_password">Email dan Password harus diisi</string>
+    <string name="UI_validation_invalid_email">Format email tidak valid</string>
+    <string name="UI_validation_empty_email_password_name">Nama, Email dan password harus diisi</string>
+    <string name="UI_validation_password_rules">Password harus berisi minimal 8 karakter</string>
+    <string name="UI_info_successful_register_user">Register pengguna baru berhasil, silahkan login dengan menggunakan email dan password yang didaftarkan</string>
+    <string name="UI_error_permission_denied">Permission ditolak</string>
+    <string name="UI_error_camera_take_photo">Gagal mengambil gambar</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
