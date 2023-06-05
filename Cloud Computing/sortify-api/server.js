@@ -67,10 +67,10 @@ const predictImgHandler = async (request, h) => {
       image
     );
 
-    const predictions = respon.data.predictions[0];
     // const respon = request.payload;
-    // const predictions = respon.predictions[0];
+    const predictions = respon.predictions[0];
     const classIndex = predictions.indexOf(Math.max(...predictions));
+    // const classIndex = 0;
 
     switch (classIndex) {
       case 0:
@@ -96,7 +96,7 @@ const predictImgHandler = async (request, h) => {
 
 const init = async () => {
   const server = Hapi.server({
-    port: 5000,
+    port: 3000,
     host: "localhost",
     routes: {
       cors: {
@@ -107,8 +107,19 @@ const init = async () => {
 
   server.route([
     {
+      method: "GET",
+      path: "/api",
+      options: {
+        handler: () => {
+          return {
+            status: "running",
+          };
+        },
+      },
+    },
+    {
       method: "POST",
-      path: "/",
+      path: "/api",
       options: {
         handler: predictImgHandler,
         payload: {
