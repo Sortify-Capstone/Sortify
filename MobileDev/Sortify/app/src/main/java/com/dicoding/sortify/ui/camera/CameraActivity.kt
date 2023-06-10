@@ -13,6 +13,7 @@ import androidx.camera.core.*
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
 import com.dicoding.sortify.databinding.ActivityCameraBinding
+import com.dicoding.sortify.ui.clasify.AddClassifyActivity
 import com.dicoding.sortify.utils.Helper
 
 class CameraActivity : AppCompatActivity() {
@@ -94,12 +95,12 @@ class CameraActivity : AppCompatActivity() {
                 val selectedImg: Uri = result.data?.data as Uri
                 val myFile = Helper.uriToFile(selectedImg, this)
 
-//                val intent = Intent(this, AddStoryActivity::class.java)
-//                intent.putExtra(AddStoryActivity.EXTRA_PHOTO_RESULT, myFile)
-//                intent.putExtra(
-//                    AddStoryActivity.EXTRA_CAMERA_MODE,
-//                    cameraSelector == CameraSelector.DEFAULT_BACK_CAMERA
-//                )
+                val intent = Intent(this, AddClassifyActivity::class.java)
+                intent.putExtra(AddClassifyActivity.EXTRA_PHOTO_RESULT, myFile)
+                intent.putExtra(
+                    AddClassifyActivity.EXTRA_CAMERA_MODE,
+                    cameraSelector == CameraSelector.DEFAULT_BACK_CAMERA
+                )
                 this.finish()
                 startActivity(intent)
             }
@@ -130,12 +131,12 @@ class CameraActivity : AppCompatActivity() {
 
                 override fun onImageSaved(output: ImageCapture.OutputFileResults) {
 
-//                    val intent = Intent(this@CameraActivity, AddStoryActivity::class.java)
-//                    intent.putExtra(AddStoryActivity.EXTRA_PHOTO_RESULT, photoFile)
-//                    intent.putExtra(
-//                        AddStoryActivity.EXTRA_CAMERA_MODE,
-//                        cameraSelector == CameraSelector.DEFAULT_BACK_CAMERA
-//                    )
+                    val intent = Intent(this@CameraActivity, AddClassifyActivity::class.java)
+                    intent.putExtra(AddClassifyActivity.EXTRA_PHOTO_RESULT, photoFile)
+                    intent.putExtra(
+                        AddClassifyActivity.EXTRA_CAMERA_MODE,
+                        cameraSelector == CameraSelector.DEFAULT_BACK_CAMERA
+                    )
                     this@CameraActivity.finish()
                     startActivity(intent)
                 }

@@ -16,7 +16,7 @@ tools:context=".ui.clasify.AddClassifyActivity">
     app:layout_constraintTop_toTopOf="parent" />
 
 <ImageView
-    android:id="@+id/story_image"
+    android:id="@+id/classify_image"
     android:layout_width="match_parent"
     android:layout_height="420dp"
     android:padding="16dp"
@@ -27,17 +27,17 @@ tools:context=".ui.clasify.AddClassifyActivity">
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintBottom_toTopOf="@id/btn_upload"
     tools:srcCompat="@tools:sample/avatars"
-    android:contentDescription="@string/content_description_image_story" />
+    android:contentDescription="@string/content_description_image" />
 
 <Button
     android:id="@+id/btn_upload"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
-    android:background="@color/teal_700"
-    android:text="@string/button_text_upload_story"
+    android:background="@color/colorSecondary"
+    android:text="@string/button_text_upload_image"
     android:textAllCaps="false"
-    app:backgroundTint="@color/teal_700"
+    app:backgroundTint="@color/colorSecondary"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintBottom_toBottomOf="parent" />

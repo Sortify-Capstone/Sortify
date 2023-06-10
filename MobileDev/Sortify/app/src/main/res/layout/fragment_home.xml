@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue_gray_100"
+    android:background="@color/colorCream"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.home.HomeFragment">
 
@@ -50,7 +50,7 @@
                         android:layout_marginEnd="8dp"
                         app:cardCornerRadius="16dp"
                         app:cardPreventCornerOverlap="false"
-                        app:cardBackgroundColor="@color/designMainColor"
+                        app:cardBackgroundColor="@color/colorPrimary"
                         android:minHeight="200dp"
                         android:layout_alignParentTop="true">
 
@@ -72,18 +72,19 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Continue to \nWebdeveloper Course"
-                                    android:textColor="@color/whiteBodyColor"
+                                    android:text="@string/const_text_banner"
+                                    android:textColor="@color/white"
                                     android:textStyle="bold"
                                     android:textSize="20sp"/>
 
                                 <TextView
+                                    android:id="@+id/status"
                                     android:layout_marginTop="15dp"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="60% Complete"
-                                    android:textColor="@color/whiteBodyColor"
+                                    android:textColor="@color/white"
                                     android:textStyle="bold"
+                                    android:text="@string/app_name"
                                     android:textSize="13sp"/>
 
                             </LinearLayout>
@@ -110,7 +111,7 @@
                     android:textStyle="bold"
                     android:textColor="@color/miniTitle"
                     android:textSize="24sp"
-                    android:text="History Klasifikasi"/>
+                    android:text="@string/const_text_history"/>
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/rv_story"

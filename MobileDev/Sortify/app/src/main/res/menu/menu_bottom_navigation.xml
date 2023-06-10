@@ -17,6 +17,6 @@
     <item
         android:id="@+id/nav_profile"
         android:icon="@drawable/ic_baseline_person_24"
-        android:title="@string/menu_title_bottom_nav_profile"
+        android:title="@string/menu_title_bottom_nav_about"
         app:showAsAction="ifRoom" />
 </menu>
