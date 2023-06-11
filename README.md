@@ -25,13 +25,19 @@ Sortify is a image waste detection app to detect user's type of waste. It can de
 
 ## Library used for Android Application
 
-1. [Datastore (example)](https://developer.android.com/topic/libraries/architecture/datastore)
+1. [Kotlin](https://kotlinlang.org)
+2. [Android Studio](https://developer.android.com/studio)
+3. [CameraX](https://developer.android.com/training/camerax)
+4. [Figma](https://www.figma.com)
 
 ## Library used for Back-end System (Node.js with NPM)
 
 1. [Nanoid](https://www.npmjs.com/package/nanoid)
 2. [@google-cloud/storage](https://www.npmjs.com/package/@google-cloud/storage)
 3. [Axios](https://www.npmjs.com/package/axios)
+4. [Sharp](https://sharp.pixelplumbing.com)
+5. [Firebase](https://firebase.google.com)
+6. [Hapi](https://hapi.dev)
 
 ## Prototype
 You can see it [here](figma link here).
