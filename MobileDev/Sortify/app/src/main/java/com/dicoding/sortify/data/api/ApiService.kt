@@ -19,7 +19,7 @@ interface ApiService {
     ): Call<SampahList>
 
     @Multipart
-    @POST("api")
+    @POST("api/classify")
     fun uploadImage(
         @Part file: MultipartBody.Part,
     ): Call<ImageUpload>

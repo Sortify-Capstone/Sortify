@@ -84,8 +84,8 @@
                                     android:layout_height="wrap_content"
                                     android:textColor="@color/white"
                                     android:textStyle="bold"
-                                    android:text="@string/app_name"
-                                    android:textSize="13sp"/>
+                                    android:text="@string/const_text_subbanner"
+                                    android:textSize="12sp"/>
 
                             </LinearLayout>
 

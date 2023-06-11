@@ -30,7 +30,8 @@
     <!-- Constant Value text -->
     <string name="const_lorem_ipsum" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
     <string name="const_class_name">Org/Anor</string>
-    <string name="const_text_banner">Pilah pilih sampah dengan bijak</string>
+    <string name="const_text_banner">Sorting Waste, Saving Planet</string>
+    <string name="const_text_subbanner">Embrace the Green Revolution!</string>
     <string name="const_text_history">Classification History</string>
     <string name="const_text_setting">Setting</string>
     <string name="const_text_change_language">Change Language</string>

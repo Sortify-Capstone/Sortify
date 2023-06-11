@@ -11,20 +11,29 @@
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="@color/gray_600"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <de.hdodenhof.circleimageview.CircleImageView
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/imageView"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="120dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:contentDescription="@string/content_description_logo"-->
+<!--            android:src="@drawable/sortify_logo" />-->
+
+        <ImageView
             android:id="@+id/imageView"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="30dp"
             android:contentDescription="@string/content_description_logo"
-            android:src="@drawable/profile_placeholder" />
+            android:src="@drawable/sortify_logo" />
 
         <TextView
             android:id="@+id/text_name"
@@ -32,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/imageView"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
+
             android:fontFamily="sans-serif-medium"
             android:textColor="@color/white"
             android:textSize="20sp"
