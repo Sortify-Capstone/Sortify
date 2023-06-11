@@ -36,6 +36,7 @@
     <string name="const_text_hours_ago">jam yang lalu</string>
     <string name="const_text_days_ago">hari yang lalu</string>
     <string name="const_text_time_on">pada</string>
+    <string name="const_text_sampah">Sampah</string>
 
 
     <!-- Button text layout xml -->

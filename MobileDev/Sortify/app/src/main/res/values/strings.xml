@@ -41,6 +41,7 @@
     <string name="const_text_hours_ago">hours ago</string>
     <string name="const_text_days_ago">days ago</string>
     <string name="const_text_time_on">on</string>
+    <string name="const_text_sampah">Trash</string>
     <string name="const_empty_text" translatable="false">NO DATA</string>
     <string name="const_update_data" translatable="false">Update Data</string>
 

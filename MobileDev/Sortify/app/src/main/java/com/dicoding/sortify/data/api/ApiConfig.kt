@@ -20,7 +20,7 @@ class ApiConfig {
                 .build()
 
             val retrofit = Retrofit.Builder()
-                .baseUrl("https://sortify-api-kwlaho5ktq-et.a.run.app/")
+                .baseUrl("https://sortify-api2-kwlaho5ktq-et.a.run.app/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build()

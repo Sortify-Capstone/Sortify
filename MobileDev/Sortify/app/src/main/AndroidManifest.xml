@@ -21,6 +21,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sortify">
         <activity
+            android:name=".ui.home.DetailHistoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.clasify.ResultClassifyActivity"
             android:exported="false" />
         <activity
