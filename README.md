@@ -39,6 +39,9 @@ Sortify is a image waste detection app to detect user's type of waste. It can de
 5. [Firebase](https://firebase.google.com)
 6. [Hapi](https://hapi.dev)
 
+## Website 
+For more Information check our [website](https://sortify-api-6x3vm2nioq-et.a.run.app)
+
 ## Prototype
 You can see it [here](figma link here).
 
