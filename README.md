@@ -2,7 +2,7 @@
 
 Bangkit Capstone Project C23-PC649
 
-![logo app](logo link here)
+![logo app](sortify-logo.jpg =100x100)
 
 ## Overview
 
@@ -21,7 +21,7 @@ Sortify is a image waste detection app to detect user's type of waste. It can de
 
 ## Tech Stack
 
-![Tech Stack](techstack image link here)
+![Tech Stack](sortify-tech.jpg)
 
 ## Library used for Android Application
 
