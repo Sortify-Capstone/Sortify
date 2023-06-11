@@ -46,7 +46,7 @@ For documentation on deploying to GCP, check this [document](docs/gcp_deploy.md)
 
 ## API Documentation
 
-You can check the API documentation on [sortify documentation link here](https://sortify.app)
+You can check the API documentation on [sortify documentation link here](https://documenter.getpostman.com/view/27787945/2s93sW9GB9)
 
 If the link above doesn't work, check [here](https://bit.ly/SortifyAPIDoc).
 
