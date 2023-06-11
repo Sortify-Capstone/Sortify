@@ -11,7 +11,7 @@ GCP services used:
 
 ## GCP architecture
 
-![GCP architecture](docs/GCP Design.png)
+![GCP architecture](docs/GCP%20Design.png)
 
 ## Set environment variables and enable services
 
