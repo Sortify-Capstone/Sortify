@@ -2,7 +2,7 @@
 
 Bangkit Capstone Project C23-PC649
 
-<img src="sortify-logo.jpg" width="300">
+<img src="docs/sortify-logo.jpg" width="300">
 
 ## Overview
 
@@ -21,7 +21,7 @@ Sortify is a image waste detection app to detect user's type of waste. It can de
 
 ## Tech Stack
 
-![Tech Stack](sortify-tech.jpg)
+![Tech Stack](docs/sortify-tech.jpg)
 
 ## Library used for Android Application
 
@@ -42,7 +42,7 @@ You can install the APK to your phone by downloading it from [here](app link gdr
 
 ## Deploying to GCP
 
-For documentation on deploying to GCP, check this [document](gcloud deploy md here).
+For documentation on deploying to GCP, check this [document](docs/gcp_deploy.md).
 
 ## API Documentation
 
