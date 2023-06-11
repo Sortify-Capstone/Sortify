@@ -21,7 +21,7 @@ Sortify is a image waste detection app to detect user's type of waste. It can de
 
 ## Tech Stack
 
-![Tech Stack](techstack image link here)
+![Tech Stack](sortify-tech.jpg)
 
 ## Library used for Android Application
 
