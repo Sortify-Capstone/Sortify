@@ -2,7 +2,7 @@
 
 Bangkit Capstone Project C23-PC649
 
-![logo app](sortify-logo.jpg)
+![logo app](sortify-logo.jpg | width=100)
 
 ## Overview
 
