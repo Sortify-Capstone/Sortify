@@ -36,37 +36,27 @@ gcloud services enable \
    gsutil mb -p capstone-sortify -c standard -l asia-southeast2 -b on gs://sortify-app
    ```
 
-   ```bash
-   gcloud iam service-accounts create storage-admin \
-    --display-name="storage admin"
-   ```
-
-   ```bash
-   gcloud projects add-iam-policy-binding capstone-sortify \
-    --member="serviceAccount:storage-admin@capstone-sortify.iam.gserviceaccount.com" \
-    --role="roles/storage.objectAdmin"
-   ```
 
 ## Firestore setup
 
 1. Create firestore database
 
 ```bash
-    gcloud firestore databases create --region=$REGION
+    gcloud firestore databases create --location=$REGION
 ```
 
 ## Cloud Run setup
 
 This part is mostly manual because we didn't configure a CI/CD pipeline.
 
-### TensorFlow Serving
+### FastAPI
 
 1.  Clone project repo from GitHub.
 
     ```bash
     git clone https://github.com/Sortify-Capstone/Sortify.git
-
-    cd Sortify/'Machine Learning'/tf-serving
+    
+    cd Sortify/'Machine Learning'/sortify-model
     export PROJECT_ID=#your GCP project ID
     ```
 
@@ -87,7 +77,7 @@ This part is mostly manual because we didn't configure a CI/CD pipeline.
     --allow-unauthenticated \
     --region=$REGION \
     --cpu=1 \
-    --min-instances=0 \
+    --min-instances=1 \
     --max-instances=4 \
     --port=8080 \
     --memory=1G
@@ -106,7 +96,7 @@ This part is mostly manual because we didn't configure a CI/CD pipeline.
    ```bash
    git clone https://github.com/Sortify-Capstone/Sortify.git
 
-   cd Sortify/'Cloud Computing'
+   cd Sortify/'Cloud Computing'/sortify-api
    export PROJECT_ID=#your GCP project ID
    ```
 
@@ -127,14 +117,14 @@ This part is mostly manual because we didn't configure a CI/CD pipeline.
    --allow-unauthenticated \
    --region=$REGION \
    --cpu=1 \
-   --min-instances=0 \
+   --min-instances=1 \
    --max-instances=4 \
    --port=8080
 
    ```
 
 4. Show Cloud Run service URL.
-
+    Show Cloud Run service URL, copy and save for later use.
    ```bash
    gcloud run services describe sortify-api --platform managed --region $REGION --format 'value(status.url)'
    ```
