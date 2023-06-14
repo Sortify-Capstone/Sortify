@@ -2,7 +2,7 @@
 
 Bangkit Capstone Project C23-PC649
 
-![logo app](sortify-logo.jpg =100x100)
+<img src="docs/sortify-logo.jpg" width="300">
 
 ## Overview
 
@@ -21,17 +21,26 @@ Sortify is a image waste detection app to detect user's type of waste. It can de
 
 ## Tech Stack
 
-![Tech Stack](sortify-tech.jpg)
+![Tech Stack](docs/sortify-tech.jpg)
 
 ## Library used for Android Application
 
-1. [Datastore (example)](https://developer.android.com/topic/libraries/architecture/datastore)
+1. [Kotlin](https://kotlinlang.org)
+2. [Android Studio](https://developer.android.com/studio)
+3. [CameraX](https://developer.android.com/training/camerax)
+4. [Figma](https://www.figma.com)
 
 ## Library used for Back-end System (Node.js with NPM)
 
 1. [Nanoid](https://www.npmjs.com/package/nanoid)
 2. [@google-cloud/storage](https://www.npmjs.com/package/@google-cloud/storage)
 3. [Axios](https://www.npmjs.com/package/axios)
+4. [Sharp](https://sharp.pixelplumbing.com)
+5. [Firebase](https://firebase.google.com)
+6. [Hapi](https://hapi.dev)
+
+## Website 
+For more Information check our [website](https://sortify-api-6x3vm2nioq-et.a.run.app)
 
 ## Prototype
 You can see it [here](figma link here).
@@ -42,13 +51,11 @@ You can install the APK to your phone by downloading it from [here](app link gdr
 
 ## Deploying to GCP
 
-For documentation on deploying to GCP, check this [document](gcloud deploy md here).
+For documentation on deploying to GCP, check this [document](docs/gcp_deploy.md).
 
 ## API Documentation
 
-You can check the API documentation on [sortify documentation link here](https://sortify.app)
-
-If the link above doesn't work, check [here](https://bit.ly/SortifyAPIDoc).
+You can check the API documentation on [here](https://documenter.getpostman.com/view/27787945/2s93sW9GB9)
 
 ## Future Developments
 
