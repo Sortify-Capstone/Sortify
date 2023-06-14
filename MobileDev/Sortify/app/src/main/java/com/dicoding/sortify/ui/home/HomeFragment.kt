@@ -44,11 +44,11 @@ class HomeFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener {
         viewModel?.cekStatus()
         viewModel?.loadHistoryData()
 
-        viewModel?.status?.observe(viewLifecycleOwner){ stat ->
-            binding.apply {
-                status.text = stat.status
-            }
-        }
+//        viewModel?.status?.observe(viewLifecycleOwner){ stat ->
+//            binding.apply {
+//                status.text = stat.status
+//            }
+//        }
 
         viewModel?.apply {
             loading.observe(viewLifecycleOwner) { binding.loading.visibility = it }
