@@ -47,7 +47,7 @@ You can see it [here](https://bit.ly/SortifyFigmaPrototype).
 
 ## How to use our app
 
-You can install the APK to your phone by downloading it from [here](app link gdrive here).
+You can install the APK to your phone by downloading it from [here](https://bit.ly/SortifyAppDownload).
 
 ## Deploying to GCP
 
