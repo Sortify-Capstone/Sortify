@@ -55,7 +55,7 @@ For documentation on deploying to GCP, check this [document](docs/gcp_deploy.md)
 
 ## API Documentation
 
-You can check the API documentation on [here](https://documenter.getpostman.com/view/27787945/2s93sW9GB9)
+You can check the API documentation on [here](https://documenter.getpostman.com/view/27787945/2s93sW9GB9).
 
 ## Future Developments
 
