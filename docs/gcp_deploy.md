@@ -56,7 +56,7 @@ This part is mostly manual because we didn't configure a CI/CD pipeline.
     ```bash
     git clone https://github.com/Sortify-Capstone/Sortify.git
     
-    cd Sortify/'Machine Learning'/sortify-model
+    cd Sortify/'Cloud Computing'/fastapi-serving
     export PROJECT_ID=#your GCP project ID
     ```
 
