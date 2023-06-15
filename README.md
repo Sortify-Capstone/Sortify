@@ -43,7 +43,7 @@ Sortify is a image waste detection app to detect user's type of waste. It can de
 For more Information check our [website](https://sortify-api-6x3vm2nioq-et.a.run.app)
 
 ## Prototype
-You can see it [here](https://www.figma.com/file/yb8Z2IjM5WcCT0IG7n4h1k/UI-Design-Capstone-Team-2023?type=design&node-id=0%3A1&t=D2jKJ11hdVoPyaXt-1).
+You can see it [here](https://bit.ly/SortifyFigmaPrototype).
 
 ## How to use our app
 
