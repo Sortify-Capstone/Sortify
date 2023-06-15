@@ -57,7 +57,6 @@ This part is mostly manual because we didn't configure a CI/CD pipeline.
     git clone https://github.com/Sortify-Capstone/Sortify.git
     
     cd Sortify/'Cloud Computing'/fastapi-serving
-    export PROJECT_ID=#your GCP project ID
     ```
 
 2.  Build and push Docker image.
@@ -97,7 +96,6 @@ This part is mostly manual because we didn't configure a CI/CD pipeline.
    git clone https://github.com/Sortify-Capstone/Sortify.git
 
    cd Sortify/'Cloud Computing'/sortify-api
-   export PROJECT_ID=#your GCP project ID
    ```
 
 2. Build and push Docker image.
