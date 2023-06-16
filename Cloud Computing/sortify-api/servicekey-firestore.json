@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "",
+  "private_key_id": "d5baaa5d6cb415c74f459a40d56a22a85e0d8426",
+  "private_key": "",
+  "client_email": "",
+  "client_id": "",
+  "auth_uri": "",
+  "token_uri": "",
+  "auth_provider_x509_cert_url": "",
+  "client_x509_cert_url": "",
+  "universe_domain": ""
+}
