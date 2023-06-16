@@ -33,11 +33,13 @@ Sortify is a image waste detection app to detect user's type of waste. It can de
 ## Library used for Back-end System (Node.js with NPM)
 
 1. [Nanoid](https://www.npmjs.com/package/nanoid)
-2. [@google-cloud/storage](https://www.npmjs.com/package/@google-cloud/storage)
+2. [google-cloud/storage](https://www.npmjs.com/package/@google-cloud/storage)
 3. [Axios](https://www.npmjs.com/package/axios)
 4. [Sharp](https://sharp.pixelplumbing.com)
 5. [Firebase](https://firebase.google.com)
 6. [Hapi](https://hapi.dev)
+7. [Fast API](https://fastapi.tiangolo.com/id)
+8. [Nginx](https://www.nginx.com)
 
 ## Website 
 For more Information check our [website](https://sortify-api-6x3vm2nioq-et.a.run.app).
